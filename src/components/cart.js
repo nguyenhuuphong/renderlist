@@ -9,10 +9,10 @@ class Cart extends Component {
 
             <div className='cart'>
 
-                <img src={this.props.items.image.src} alt='image' />
+                <img src={this.props.items.coverUrl} alt='image' /> //image.src
                 <p><strong>Title:</strong> {this.props.items.title}</p>
 
-                <p><strong>Variants:</strong> {this.props.items.variants.map((item) => <Variants abc={item} />)} </p>
+                 {/* <p><strong>Variants:</strong> {this.props.items.variants.map((item) => <Variants abc={item} />)} </p> */}
 
 
 
